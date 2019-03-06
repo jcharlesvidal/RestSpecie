@@ -6,7 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
-////SpringBootServletInitializer and the override for generating war
+/////SpringBootServletInitializer and the override for generating war
 @SpringBootApplication(scanBasePackages="fr.afpa.formation")
 public class Application extends SpringBootServletInitializer /*WebMvcConfigurer*/  {
 	@Override
