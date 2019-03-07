@@ -30,7 +30,9 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.afpa.formation.business.ServiceSpecie;
 import fr.afpa.formation.exceptions.NoObjectEntityException;
 import fr.afpa.formation.persistence.Specie;
-
+/*
+ * some comments
+ */
 @RestController
 @RequestMapping("/rest/species")
 class SpecieController {
